@@ -1,0 +1,30 @@
+{
+  "name": "babel-debug",
+  "version": "1.0.0",
+  "description": "babel-plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanghaiyan123/babel.git"
+  },
+  "author": "feile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanghaiyan123/babel/issues"
+  },
+  "homepage": "https://github.com/huanghaiyan123/babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/generator": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/template": "^7.16.0",
+    "@babel/traverse": "^7.16.3",
+    "@babel/types": "^7.16.0",
+    "babylon": "^6.18.0"
+  }
+}
