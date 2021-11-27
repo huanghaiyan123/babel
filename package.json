@@ -2,9 +2,10 @@
   "name": "babel-debug",
   "version": "1.0.0",
   "description": "babel-plugin",
-  "main": "index.js",
+  "test": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "babel test -d lib",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,15 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/generator": "^7.16.0",
+    "@babel/parser": "^7.16.4",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@babel/template": "^7.16.0",
     "@babel/traverse": "^7.16.3",
     "@babel/types": "^7.16.0",
-    "babylon": "^6.18.0"
+    "@types/node": "^16.11.10",
+    "babylon": "^6.18.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
   }
 }
