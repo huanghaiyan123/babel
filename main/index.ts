@@ -18,7 +18,9 @@
 import * as parser from '@babel/parser'
 import * as types from '@babel/types'
 
-//其实思路就是把我们main/index.ts我们转换成dist/index.js文件以后的
+//其实思路就是把我们main/index.ts利用tsconfig.json配置转换成dist/index.js文件,
+//顺便会生成一个转换以后的文件lib/index.js,然后再利用babel的配置,自己定义一个插件和预设,
+//编译我们抽象语法树,进行增加propsExpression这个properties的size属性和值
 export default function(){
    return {
     visitor : {
